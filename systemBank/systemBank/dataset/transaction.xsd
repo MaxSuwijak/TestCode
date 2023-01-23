@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="transaction" targetNamespace="http://tempuri.org/transaction.xsd" xmlns:mstns="http://tempuri.org/transaction.xsd" xmlns="http://tempuri.org/transaction.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="transaction" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="transaction" msprop:Generator_UserDSName="transaction">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="transaction" msprop:Generator_TableClassName="transactionDataTable" msprop:Generator_TableVarName="tabletransaction" msprop:Generator_TablePropName="_transaction" msprop:Generator_RowDeletingName="transactionRowDeleting" msprop:Generator_RowChangingName="transactionRowChanging" msprop:Generator_RowEvHandlerName="transactionRowChangeEventHandler" msprop:Generator_RowDeletedName="transactionRowDeleted" msprop:Generator_UserTableName="transaction" msprop:Generator_RowChangedName="transactionRowChanged" msprop:Generator_RowEvArgName="transactionRowChangeEvent" msprop:Generator_RowClassName="transactionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="transaction_id" msprop:Generator_ColumnVarNameInTable="columntransaction_id" msprop:Generator_ColumnPropNameInRow="transaction_id" msprop:Generator_ColumnPropNameInTable="transaction_idColumn" msprop:Generator_UserColumnName="transaction_id" type="xs:string" minOccurs="0" />
+              <xs:element name="transaction_date" msprop:Generator_ColumnVarNameInTable="columntransaction_date" msprop:Generator_ColumnPropNameInRow="transaction_date" msprop:Generator_ColumnPropNameInTable="transaction_dateColumn" msprop:Generator_UserColumnName="transaction_date" type="xs:string" minOccurs="0" />
+              <xs:element name="transaction_type" msprop:Generator_ColumnVarNameInTable="columntransaction_type" msprop:Generator_ColumnPropNameInRow="transaction_type" msprop:Generator_ColumnPropNameInTable="transaction_typeColumn" msprop:Generator_UserColumnName="transaction_type" type="xs:string" minOccurs="0" />
+              <xs:element name="transaction_balance" msprop:Generator_ColumnVarNameInTable="columntransaction_balance" msprop:Generator_ColumnPropNameInRow="transaction_balance" msprop:Generator_ColumnPropNameInTable="transaction_balanceColumn" msprop:Generator_UserColumnName="transaction_balance" type="xs:string" minOccurs="0" />
+              <xs:element name="remark" msprop:Generator_ColumnVarNameInTable="columnremark" msprop:Generator_ColumnPropNameInRow="remark" msprop:Generator_ColumnPropNameInTable="remarkColumn" msprop:Generator_UserColumnName="remark" type="xs:string" minOccurs="0" />
+              <xs:element name="transaction_status_print" msprop:Generator_ColumnVarNameInTable="columntransaction_status_print" msprop:Generator_ColumnPropNameInRow="transaction_status_print" msprop:Generator_ColumnPropNameInTable="transaction_status_printColumn" msprop:Generator_UserColumnName="transaction_status_print" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
